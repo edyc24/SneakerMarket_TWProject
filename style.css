@@ -2,3 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+.header{
+    min-height: 150vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(255,255,255, 0.3),rgba(255,255,255, 0.3)),url(photo/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
