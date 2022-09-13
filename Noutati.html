@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Noutati.css">
-    <link rel="stylesheet" href="Noutati.js">
+    <script src="Noutati.js"></script>
     <title>Noutati</title>
 </head>
 <body>
-    <div id="timp">
+    <div>
         <p id="ceas">Ora: </p>
     </div>
     <section class="header">
@@ -47,19 +47,28 @@
             <div class="grid-item">
                 <img src="photo/off white air force.jpg">
                 <div class="poza">
-                    <h3>Off whitexAir force 1</h3>
+                    <h3>Off White X Air force 1</h3>
                 </div>
             </div>
           </div>
 
     </section>
-    <section>
-        <div>
-            <p>Adauga release nou:</p>
-            <input id="numb">   
-            <button type="button" onclick="addInfo()">Submit</button>    
-            <p id="demo"></p>
-        </div>
+    <section><div class="new-item">
+        <h2>Adauga un release nou:</h2>
+        <form>
+            <label for="nume">Nume: </label>
+            <input type="text" id="nume">
+            <br>
+            <label for="descriere">Descriere: </label>
+            <br>
+            <label for="Image">Imagine: </label>
+            <input type="file" id="poza-pereche" name="poza">
+            <br>
+            <textarea name="descriere" id="descriere" cols="80" rows="10"></textarea>
+            <br>
+            <button type="button" id="post">Postare</button>
+        </form>
+    </div>
 
     </section>
 </body>

@@ -66,3 +66,36 @@
     opacity: 1;
     text-align: center;
 }
+
+.new-item{
+    background-color: white;
+    padding: 150px 270px 150px 150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.new-item>h2{
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.new-item>h2::before{
+    padding: 14px;
+    margin-right: 42px;
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+}
+
+.new-item>img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+    box-shadow: 0 0 20px black;
+}
+
+.new-item>p{
+    display: inline-block;
+    width: 80%;
+    line-height: 40px;
+}
