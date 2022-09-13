@@ -31,12 +31,63 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 7px 11px;
+    padding: 7px 9px;
     position: relative;
 }
 
 .nav-links ul li a{
-    color: aliceblue;
+    color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: grey;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.text{
+    width: 90%;
+    color:black;
+    position:absolute;
+    top:20%;
+    left:0%;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+.text p{
+    margin: 9px 0px 37px;
+    color:black;
+}
+
+.noutati{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 11px 31px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.noutati:hover{
+    border: 2px solid grey;
+    background: grey;
+    transition: 0.5s;
 }
