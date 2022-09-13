@@ -71,8 +71,8 @@
     width: 100%;
     font-weight: 400;
     color: black;
-    bottom: 0;
     transform: translateY(240%);
+    bottom: 0;
     font-size: 20px;
     transition: 0.5s;
     opacity: 0;
