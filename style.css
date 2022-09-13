@@ -11,3 +11,32 @@
     background-size: cover;
     position: relative;
 }
+
+nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 250px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px 11px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+}
