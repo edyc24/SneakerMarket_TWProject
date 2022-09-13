@@ -15,4 +15,5 @@ window.onload=()=>{
 
     hide.addEventListener("click",hidemenu);
     open.addEventListener("click",openmenu);
+    
 }
