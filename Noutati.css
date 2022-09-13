@@ -67,10 +67,27 @@
     text-align: center;
 }
 
+.poza p{
+    width: 100%;
+    font-weight: 400;
+    color: black;
+    bottom: 0;
+    transform: translateY(240%);
+    font-size: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.poza:hover p{
+    bottom: 49%;
+    opacity: 1;
+    text-align: center;
+}
+
 .new-item{
     background-color: white;
     padding: 150px 270px 150px 150px;
-    font-family: 'Roboto', sans-serif;
+    font-family: cursive;
 }
 
 .new-item>h2{
@@ -86,7 +103,7 @@
     border-radius: 35px;
 }
 
-.new-item>img {
+.new-item>img{
     float: left;
     width: 200px;
     height: 200px;
