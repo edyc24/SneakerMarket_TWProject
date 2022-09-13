@@ -4,7 +4,7 @@
 }
 
 .header{
-    min-height: 150vh;
+    min-height: 80vh;
     width: 100%;
     background-image:linear-gradient(rgba(255,255,255, 0.3),rgba(255,255,255, 0.3)),url(photo/background.jpg);
     background-position: center;
@@ -16,7 +16,7 @@ nav{
     display: flex;
     padding: 3% 5%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 nav img{
@@ -24,7 +24,7 @@ nav img{
 }
 
 .nav-links{
-    flex: 1;
+    align-items: flex-start;
     text-align: right;
 }
 
@@ -61,21 +61,21 @@ nav .fa{
 }
 
 .text{
-    width: 90%;
+    width: 100%;
     color:black;
     position:absolute;
-    top:20%;
-    left:0%;
     text-align: center;
 }
 
 .text h1{
     font-size: 50px;
+    text-align: center;
 }
 
 .text p{
     margin: 9px 0px 37px;
     color:black;
+    text-align: center;
 }
 
 .noutati{
@@ -132,4 +132,41 @@ nav .fa{
     .nav-links ul{
         padding: 20px;
     }
+
+    .lin{
+        flex-direction: column;
+    }
+}
+
+.informatii{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.lin{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 22%;
+    background: gray;
+    border-radius: 9px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 18px 11px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    margin: 9px 0;
 }
