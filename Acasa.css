@@ -228,3 +228,20 @@ h2{
     opacity: 1;
     text-align: center;
 }
+
+.Animatie{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: Animation;
+    animation-duration: 10s;
+  }
+  
+  @keyframes Animation {
+    0%   {left:0px; top:0px;}
+    15%  {left:200px; top:0px;}
+    30%  {left:200px; top:200px;}
+    45%  {left:0px; top:200px;}
+    70% {left:0px; top:0px;}
+    100% {left:50%; top:0px;}
+  }
